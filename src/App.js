@@ -1,8 +1,7 @@
 import {Box, ChakraProvider, Flex} from '@chakra-ui/react';
-import ToggleColorMode from './components/molecules/ToggleColorMode';
 import Footer from './components/organisms/Footer';
 import Header from './components/molecules/Header';
-import UnitsConverterForm from './components/organisms/UnitsConverterForm';
+import UnitsConverter from './components/organisms/UnitsConverter';
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
               justify={'center'}
           >
             <Header/>
-            <UnitsConverterForm/>
+            <UnitsConverter/>
           </Flex>
         </Box>
         <Footer/>
